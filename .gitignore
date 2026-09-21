@@ -1,0 +1,20 @@
+# Credentials / secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Databases
+*.db
+*.sqlite3
+
+# Generated output
+sdr_system/output/
